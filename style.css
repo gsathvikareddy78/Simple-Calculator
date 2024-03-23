@@ -62,3 +62,9 @@ button:hover {
         inset -2px -2px 3px rgb(255, 252, 252);
     background: #070e0f;
 }
+.equalBtn {
+    background-color: #fb7c14;
+}
+.operator {
+    color: chartreuse;
+}
