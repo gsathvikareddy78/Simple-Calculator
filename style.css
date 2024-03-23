@@ -33,3 +33,6 @@ input {
     text-align: right;
     cursor: pointer;
 }
+input::placeholder {
+    color: #ffffff;
+}
