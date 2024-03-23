@@ -68,3 +68,9 @@ button:hover {
 .operator {
     color: chartreuse;
 }
+.altBtn {
+    background-color: rgb(11, 116, 237);
+}
+.deleteBtn {
+    background-color: crimson;
+}
