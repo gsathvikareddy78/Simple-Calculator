@@ -75,41 +75,43 @@ button:hover {
     background-color: crimson;
 }
 @media only screen and (min-width:280px)  and (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+    }
     body {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(40deg, #0a0a0a, #3a4452);
+        width: 90%;
     }
     .calculator {
-        border: 1px solid #717377;
-        padding: 15px;
-        border-radius: 16px;
-        background-color: transparent;
-        box-shadow: 0px 3px 15px rgba(114, 115, 119, 0.5);
+        padding: 8px;
     }
     input {
-        width: 320px;
-        padding: 20px;
-        margin: 8px;
+        width: 300px;
+        padding: 15px;
+        margin: 5px;
     }
     button {
-        width: 50px;
+        width: 40px;
         font-size: 18px;
     }
 }
 @media only screen and (min-width:0px)  and (max-width: 280px){
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        width: 70%;
+    }
+    .calculator {
+        padding: 6px;
+    }
     input {
-        width: 275px;
-        padding: 16px;
-        margin: 6px;
-        font-size: 25px;
+        width: 100px;
+        padding: 8px;
+        margin: 3px;
     }
     button {
-        width: 40px;
+        width: 30px;
         font-size: 15px;
-        margin: 6px;
+        margin: 4px;
     }
 }
