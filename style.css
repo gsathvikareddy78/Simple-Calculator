@@ -101,12 +101,12 @@ button:hover {
         box-sizing: border-box;
     }
     body {
-        width: 60%;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
     input {
-        width: 100px;
+        width: 80px;
         padding: 8px;
         margin:3px;
     }
