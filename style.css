@@ -101,9 +101,15 @@ button:hover {
     }
 }
 @media only screen and (min-width:0px)  and (max-width: 280px){
+    input {
+        width: 275px;
+        padding: 16px;
+        margin: 6px;
+        font-size: 25px;
+    }
     button {
         width: 40px;
         font-size: 15px;
-        margin: 7px;
+        margin: 6px;
     }
 }
