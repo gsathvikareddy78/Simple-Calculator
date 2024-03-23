@@ -9,5 +9,9 @@ arr.forEach(button => {
             string = eval(string);
             input.value = string;
         }
+         else if (e.target.innerHTML == 'AC') {
+            string = '';
+            input.value = string;
+        }
     })
 })
