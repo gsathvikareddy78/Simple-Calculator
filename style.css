@@ -74,3 +74,21 @@ button:hover {
 .deleteBtn {
     background-color: crimson;
 }
+@media only screen and (max-width: 600px) {
+    .calculator {
+        width: 90%;
+    }
+
+    input {
+        width: 100%;
+        font-size: 24px;
+        padding: 16px;
+        margin: 8px;
+    }
+
+    button {
+        width: 40px;
+        font-size: 16px;
+        margin: 6px;
+    }
+}
